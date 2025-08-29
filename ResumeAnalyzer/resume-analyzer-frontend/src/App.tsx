@@ -1,5 +1,7 @@
 //import logo from './logo.svg';
+import { Analyzer } from './Analyzer';
 import './App.css';
+import { Home } from './Home';
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Smart Resume Analyzer
+          <Home/>
         </a>
       </header>
     </div>
