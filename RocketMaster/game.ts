@@ -1,5 +1,8 @@
+// @ts-ignore
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.168.0/build/three.module.js';
-import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.168.0/examples/jsm/controls/OrbitControls.js';
+//import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+
+declare type GPUTexture = any;
 
 // Game interfaces
 interface FallingWord {
@@ -188,7 +191,7 @@ function animate() {
 
     // Move camera to follow rocket
     camera.position.y = rocket.position.y + 2;
-    camera.position.x += 0.02; // Side-scrolling effect
+    //camera.position.x += 0.02; // Side-scrolling effect
 
     // Rotate planet
     planet.rotation.y += 0.001;

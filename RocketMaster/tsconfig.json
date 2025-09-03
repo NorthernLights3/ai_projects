@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",          // JavaScript version output
+    "module": "ES6",          // use ES6 modules
+    "outDir": "./dist",       // compiled JS output folder
+    "rootDir": "./",           // source TS folder
+    "strict": true,           // enable strict type checking
+    "lib": ["ES2020", "DOM", "DOM.Iterable"], 
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["*.ts"]
+}
